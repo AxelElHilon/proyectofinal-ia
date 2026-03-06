@@ -5,7 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Inter', sans-serif;
   background: #ffffff;
@@ -29,6 +31,8 @@ body {
 .logo {
   font-weight: 600;
   font-size: 18px;
+  text-decoration: none;
+  color: #3535cb;
 }
 
 .nav-links {
